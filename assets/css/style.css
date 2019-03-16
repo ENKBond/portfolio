@@ -1,0 +1,77 @@
+#portfolio-about-me {
+    max-width: 75%;
+    height: auto;
+    transform: rotate(90deg);
+    position: relative;
+    top: 150px;
+}
+
+#about-text {
+    position: relative;
+    top: 150px;
+    color: whitesmoke;
+    font-family: 'Special Elite', cursive;
+}
+
+body {
+    background-color: black;
+}
+
+.p-2 {
+    color: gray;
+    display: inline;
+    
+}
+
+#name_item {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#italic_item {
+    font-style: italic;
+    font-size: 25px;
+}
+
+#descr_item {
+    font-size: 30px;
+}
+
+/* .container {
+    position: relative;
+    top: 100px;
+    width: 960px;
+    z-index: 10;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+} */
+
+h2 {
+    color: #ffb300;
+    font-family: 'Special Elite', cursive;
+}
+
+.navbar-text {
+    text-align: center;
+}
+
+.portPic {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: small;
+    z-index: 10;
+    padding: none;
+    width: 64%;
+    height: 40px;
+    padding-top: 10px;
+    
+}
+
+h4 {
+    font-size: 14px;
+}
+
