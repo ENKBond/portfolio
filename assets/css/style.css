@@ -1,25 +1,38 @@
 #portfolio-about-me {
-    max-width: 75%;
+    max-width: 25%;
     height: auto;
     transform: rotate(90deg);
     position: relative;
-    top: 150px;
+    top: 100px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #00264d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#about-text {
+h1 {
     position: relative;
     top: 100px;
-    color:black;
-    font-family: 'Slackey', cursive;
+    color: #ff6666;
+    font-family: 'Montserrat Alternates', sans-serif;
+    /* text-shadow: 1px 1px 0px #eee, 2px 2px 0px #707070; */
 }
 
 
 h3 {
-    color:black;
-    font-family: 'Slackey', cursive;
+    color: #ff6666;
+    font-family: 'Montserrat Alternates', sans-serif;
+    /* text-shadow: 1px 1px 0px #eee, 2px 2px 0px #707070; */
 }
 
-#bottom-text {
+h5 {
+    color: #ff6666;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-left: 300px;
+
+}
+
+#bottom-text-name {
     text-align: center;
 }
 
@@ -33,18 +46,22 @@ h3 {
 }
 
 body {
-    background-color: #27dadd;
+    /* background-color: #27dadd; */
+    background-image: linear-gradient(#27dadd, #d1feff);
 }
 
 .p-2 {
-    color: gray;
+    color: #ff6666;
     display: inline;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.875em;
     
 }
 
-#name_item {
-    font-size: 40px;
-    /* font-weight: bold; */
+.nav-container {
+    margin-left: 560px;
+    position: relative;
+    margin-top: 20px;
 }
 
 #italic_item {
@@ -84,5 +101,12 @@ body {
     height: 40px;
     padding-top: 10px;
     
+}
+
+#logo {
+    height: 700px;
+    margin-left: 150px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
