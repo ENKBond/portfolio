@@ -1,5 +1,5 @@
 #portfolio-about-me {
-    max-width: 25%;
+    max-width: 50%;
     height: auto;
     transform: rotate(90deg);
     position: relative;
@@ -30,6 +30,16 @@ h5 {
     font-family: 'Montserrat Alternates', sans-serif;
     margin-left: 300px;
 
+}
+
+p {
+    color: #ff6666;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h4 {
+    color: #ff6666;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 #bottom-text-name {
